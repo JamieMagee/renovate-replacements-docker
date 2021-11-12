@@ -1,1 +1,1 @@
-FROM node:16.0.0
+FROM bitnami/redis:6.2
