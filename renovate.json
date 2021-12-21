@@ -1,0 +1,9 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "packageRules": [{
+    "matchDatasources": ["docker"],
+    "matchPackageNames": ["bitnami/redis"],
+    "replacementName": "mcr.microsoft.com/oss/bitnami/redis",
+    "replacementVersion": "6.0.8",
+  }]
+}
